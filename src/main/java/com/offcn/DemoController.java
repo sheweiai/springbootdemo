@@ -39,4 +39,11 @@ public class DemoController {
         list.add(car4);
         return  list;
     }
+
+    /**
+     * 新增分支方法
+     */
+    public void fenzhi(){
+        System.out.println("我是分支");
+    }
 }
